@@ -4,6 +4,6 @@
  * Pas de programmacode aan zodat de geziene 'best practices' worden toegepast.
  */
 
-let WelcomeMessage = 'Hallo';
-yourName = prompt('Hoe heet je?');
-console.log(WelcomeMessage + ' ' + yourName);
+const welcomeMessage = 'Hallo';
+const yourName = prompt('Hoe heet je?');
+console.log(`${welcomeMessage} ${yourName}`);
