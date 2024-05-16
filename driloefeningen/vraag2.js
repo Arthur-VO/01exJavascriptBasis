@@ -7,3 +7,6 @@
  */
 'use strict';
 const orderNumber = '14284-4859';
+const indexOfSecondNumber = orderNumber.indexOf("-")+1;
+const number = Number(orderNumber.slice(indexOfSecondNumber))+10;
+console.log(`Het resultaat is ${number}`)
